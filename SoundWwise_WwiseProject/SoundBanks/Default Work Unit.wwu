@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7756713D-B914-4D1A-875E-4182707F25F8}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7756713D-B914-4D1A-875E-4182707F25F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master" ID="{89D3864F-A02A-4E17-AFE1-8ED248D2E271}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_All" ID="{21FDA9FD-C8D8-4640-849C-74533CF41066}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{33AC89E1-2318-40DD-867A-7AEDB0A356FA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{754C3FDE-F796-41CB-89FC-D1089378982C}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Transition" ID="{46A944CA-0C79-4F6A-8FE8-649F84048415}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{70348B0B-DCE3-496D-B0BC-91E13B3B25FC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{FBD4793E-89B9-4D01-A283-286531DE6CDB}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Main" ID="{867EF6BF-EAC1-4461-AB85-F62FA3773036}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

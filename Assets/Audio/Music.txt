@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2717970571	Change_State			\Default Work Unit\Transition\Change_State	
+	2952268468	Play_Chill			\Default Work Unit\Music\Play_Chill	
+	2955987680	Play_Win			\Default Work Unit\Transition\Play_Win	
+	3796466245	Play_Lose			\Default Work Unit\Transition\Play_Lose	
+	4114669316	Play_Tension			\Default Work Unit\Music\Play_Tension	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12494622	Transition_Lose	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Windows\SFX\Game over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Transition\Transition_Lose		8202664
+	180830912	Music_Tension	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Windows\SFX\pression track_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Tension		4410064
+	219554426	Music_Chill	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Windows\SFX\chill track_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Chill		8158564
+	737872782	Transition_Win	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Windows\SFX\Win_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Transition\Transition_Win		8202664
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{754C3FDE-F796-41CB-89FC-D1089378982C}" ShortID="863873086">
+					<ChildrenList>
+						<Event Name="Play_Chill" ID="{237D7870-1100-4B92-9DCC-113F5D00F57C}">
+							<ChildrenList>
+								<Action Name="" ID="{F137B884-3DFF-4721-B565-173B63DB240C}" ShortID="828007416">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game" ID="{3E3A6572-7195-4221-A3E3-CF112D9F6966}" WorkUnitID="{A69CE0B4-EF36-4037-AFC7-E7D0771428A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Tension" ID="{5B23C426-9595-4C50-8512-EE51A4458C0A}">
+							<ChildrenList>
+								<Action Name="" ID="{A78FB280-AB63-456A-A957-AC9CF67FE811}" ShortID="423408990">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Tension" ID="{7369B43D-26FC-4279-AB78-DF9D65C46E77}" WorkUnitID="{15F4B393-5107-4B3A-9C58-D285DDB03055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{FBD4793E-89B9-4D01-A283-286531DE6CDB}" ShortID="60304023">
+					<ChildrenList>
+						<Event Name="Play_Random" ID="{E65CD482-B33E-4DD9-A656-FB622E78FA57}">
+							<ChildrenList>
+								<Action Name="" ID="{8B4C4D13-6712-4E33-B936-2B46E7165C2F}" ShortID="767637689">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Randoms" ID="{803D486C-5BF9-4A61-9E01-BBBCA7A8BAB0}" WorkUnitID="{15F4B393-5107-4B3A-9C58-D285DDB03055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cartoon" ID="{6A9C59E4-5F62-4DAF-B546-9DEA211D8656}">
+							<ChildrenList>
+								<Action Name="" ID="{A0284D8D-FB61-463B-AC0A-7463128ACA7F}" ShortID="319522285">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Cartoons" ID="{77A090E0-E867-4ABA-9359-6997C1A37993}" WorkUnitID="{15F4B393-5107-4B3A-9C58-D285DDB03055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Monster" ID="{A473EB34-A6A1-4304-A8AD-68B260A996D8}">
+							<ChildrenList>
+								<Action Name="" ID="{89939662-B91A-4A03-821A-C15559A867DB}" ShortID="633382713">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Monsters" ID="{E2BC1A2F-D543-4694-B7D7-42B5E868619C}" WorkUnitID="{15F4B393-5107-4B3A-9C58-D285DDB03055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Voice" ID="{D32FC6D3-C4E6-4F84-96DD-E534F0C66FF4}">
+							<ChildrenList>
+								<Action Name="" ID="{4746B8AD-32F4-4242-BA46-44F232A675B8}" ShortID="752592790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Voices" ID="{334164A3-7D92-4CA6-B4F2-C521E93FC984}" WorkUnitID="{15F4B393-5107-4B3A-9C58-D285DDB03055}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Transition" ID="{46A944CA-0C79-4F6A-8FE8-649F84048415}" ShortID="915137374">
+					<ChildrenList>
+						<Event Name="Play_Win" ID="{3E55CA54-57A3-4522-8E4F-395DF2080E35}">
+							<ChildrenList>
+								<Action Name="" ID="{16A21CF4-94F7-449F-874A-854C1005FB0E}" ShortID="206305203">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Win" ID="{B3AF41E6-E0B3-4EA1-A7AF-08AF4B7642B9}" WorkUnitID="{4F7D7105-C5FD-4BC0-A58B-F25166EF897C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lose" ID="{C67A8E70-889F-4C1C-8519-2E698185E2EE}">
+							<ChildrenList>
+								<Action Name="" ID="{2A787460-76AA-4582-95E6-A4CA435C8624}" ShortID="778781722">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lose" ID="{169B8233-8C12-4B87-A16C-B94FB546E0DA}" WorkUnitID="{4F7D7105-C5FD-4BC0-A58B-F25166EF897C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Change_State" ID="{EB2CC9D0-0C56-4963-B160-E4A4F7ED5F67}">
+							<ChildrenList>
+								<Action Name="" ID="{D3784B6D-9264-4B60-B485-AA11B3158868}" ShortID="694546328">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game" ID="{C598428F-9E88-43D6-A350-42E8112E7393}" WorkUnitID="{4F7D7105-C5FD-4BC0-A58B-F25166EF897C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_All" ID="{21FDA9FD-C8D8-4640-849C-74533CF41066}">
+					<ChildrenList>
+						<Action Name="" ID="{0CB2496F-DAB0-467F-93BC-6336CED768F8}" ShortID="334709808">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

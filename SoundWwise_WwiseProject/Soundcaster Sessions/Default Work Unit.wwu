@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6EA6203F-FF42-4412-B98E-06FC197AB310}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6EA6203F-FF42-4412-B98E-06FC197AB310}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{E0BBE99F-5CF8-461F-AB8C-B9C19F1DC418}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Chill" ID="{237D7870-1100-4B92-9DCC-113F5D00F57C}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Cartoon" ID="{6A9C59E4-5F62-4DAF-B546-9DEA211D8656}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lose" ID="{C67A8E70-889F-4C1C-8519-2E698185E2EE}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Game" ID="{3E3A6572-7195-4221-A3E3-CF112D9F6966}" WorkUnitID="{A69CE0B4-EF36-4037-AFC7-E7D0771428A7}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Tension" ID="{5B23C426-9595-4C50-8512-EE51A4458C0A}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Monster" ID="{A473EB34-A6A1-4304-A8AD-68B260A996D8}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Win" ID="{3E55CA54-57A3-4522-8E4F-395DF2080E35}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lose" ID="{5DD09F77-C7CD-4AA4-A71E-A7D0B8A19481}" WorkUnitID="{A69CE0B4-EF36-4037-AFC7-E7D0771428A7}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_All" ID="{21FDA9FD-C8D8-4640-849C-74533CF41066}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Random" ID="{E65CD482-B33E-4DD9-A656-FB622E78FA57}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Win" ID="{3185CEC5-B19D-466A-8E20-C1E5CC80DCE4}" WorkUnitID="{A69CE0B4-EF36-4037-AFC7-E7D0771428A7}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Voice" ID="{D32FC6D3-C4E6-4F84-96DD-E534F0C66FF4}" WorkUnitID="{76019AEC-76DA-400C-9A89-65EEBF0730C8}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Master" ID="{9DF642C4-E2EC-4606-ACC1-B023ECB7BE06}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{0000E5BE-4472-4B3A-8CEA-AE0C8DA759F5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_SFX" ID="{FF2F9A19-DC20-4FC0-857F-36528447A2B6}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Win" ID="{B3AF41E6-E0B3-4EA1-A7AF-08AF4B7642B9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

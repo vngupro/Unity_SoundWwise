@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\nguye\Documents\Unity\SoundWwise\Assets\Audio\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="8407284">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="114860420" Name="Play_Cartoon" ObjectPath="\Events\Default Work Unit\SFX\Play_Cartoon">
+					<IncludedMemoryFiles>
+						<File Id="36512681" Language="SFX">
+							<ShortName>cartoon2.wav</ShortName>
+							<Path>SFX\cartoon2_10C4C929.wem</Path>
+						</File>
+						<File Id="163784384" Language="SFX">
+							<ShortName>cartoon1.wav</ShortName>
+							<Path>SFX\cartoon1_10C4C929.wem</Path>
+						</File>
+						<File Id="687893584" Language="SFX">
+							<ShortName>cartoon3.wav</ShortName>
+							<Path>SFX\cartoon3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4269137384" Name="Play_Monster" ObjectPath="\Events\Default Work Unit\SFX\Play_Monster">
+					<IncludedMemoryFiles>
+						<File Id="134625218" Language="SFX">
+							<ShortName>monster3.wav</ShortName>
+							<Path>SFX\monster3_10C4C929.wem</Path>
+						</File>
+						<File Id="914519562" Language="SFX">
+							<ShortName>monster1.wav</ShortName>
+							<Path>SFX\monster1_10C4C929.wem</Path>
+						</File>
+						<File Id="936080104" Language="SFX">
+							<ShortName>monster2.wav</ShortName>
+							<Path>SFX\monster2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1184772011" Name="Play_Random" ObjectPath="\Events\Default Work Unit\SFX\Play_Random">
+					<IncludedMemoryFiles>
+						<File Id="351253591" Language="SFX">
+							<ShortName>back_001.wav</ShortName>
+							<Path>SFX\back_001_10C4C929.wem</Path>
+						</File>
+						<File Id="375656570" Language="SFX">
+							<ShortName>back_002.wav</ShortName>
+							<Path>SFX\back_002_10C4C929.wem</Path>
+						</File>
+						<File Id="556207773" Language="SFX">
+							<ShortName>back_004.wav</ShortName>
+							<Path>SFX\back_004_10C4C929.wem</Path>
+						</File>
+						<File Id="1042982428" Language="SFX">
+							<ShortName>back_003.wav</ShortName>
+							<Path>SFX\back_003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1642680936" Name="Play_Voice" ObjectPath="\Events\Default Work Unit\SFX\Play_Voice">
+					<IncludedMemoryFiles>
+						<File Id="141545376" Language="SFX">
+							<ShortName>inst1.wav</ShortName>
+							<Path>SFX\inst1_10C4C929.wem</Path>
+						</File>
+						<File Id="263009774" Language="SFX">
+							<ShortName>inst2.wav</ShortName>
+							<Path>SFX\inst2_10C4C929.wem</Path>
+						</File>
+						<File Id="950366822" Language="SFX">
+							<ShortName>inst3.wav</ShortName>
+							<Path>SFX\inst3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3237211757">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+				<GameParameter Id="3695994288" Name="Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Volume_Master"/>
+				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volume_Music"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3803176866">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2717970571" Name="Change_State" ObjectPath="\Events\Default Work Unit\Transition\Change_State">
+					<ActionSetState>
+						<ActionSetStateEntry Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\State_Game\Game"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2952268468" Name="Play_Chill" ObjectPath="\Events\Default Work Unit\Music\Play_Chill">
+					<IncludedMemoryFiles>
+						<File Id="219554426" Language="SFX">
+							<ShortName>chill track.wav</ShortName>
+							<Path>SFX\chill track_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3796466245" Name="Play_Lose" ObjectPath="\Events\Default Work Unit\Transition\Play_Lose">
+					<IncludedMemoryFiles>
+						<File Id="12494622" Language="SFX">
+							<ShortName>Game over.wav</ShortName>
+							<Path>SFX\Game over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114669316" Name="Play_Tension" ObjectPath="\Events\Default Work Unit\Music\Play_Tension">
+					<IncludedMemoryFiles>
+						<File Id="180830912" Language="SFX">
+							<ShortName>pression track.wav</ShortName>
+							<Path>SFX\pression track_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2955987680" Name="Play_Win" ObjectPath="\Events\Default Work Unit\Transition\Play_Win">
+					<IncludedMemoryFiles>
+						<File Id="737872782" Language="SFX">
+							<ShortName>Win.wav</ShortName>
+							<Path>SFX\Win_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="702482391" Name="Game" ObjectPath="\States\Default Work Unit\State_Game\Game">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="1449439162">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

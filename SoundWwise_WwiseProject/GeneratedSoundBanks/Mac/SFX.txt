@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	114860420	Play_Cartoon			\Default Work Unit\SFX\Play_Cartoon	
+	1184772011	Play_Random			\Default Work Unit\SFX\Play_Random	
+	1642680936	Play_Voice			\Default Work Unit\SFX\Play_Voice	
+	4269137384	Play_Monster			\Default Work Unit\SFX\Play_Monster	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	36512681	Cartoon_02	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\cartoon2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoons\Cartoon_02		406112
+	134625218	Monster_03	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\monster3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monsters\Monster_03		724276
+	141545376	Voice_01	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\inst1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Voices\Voice_01		901640
+	163784384	Cartoon_01	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\cartoon1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoons\Cartoon_01		541464
+	263009774	Voice_02	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\inst2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Voices\Voice_02		1233796
+	351253591	Random_01	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\back_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Randoms\Random_01		6080
+	375656570	Random_02	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\back_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Randoms\Random_02		8128
+	556207773	Random_04	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\back_004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Randoms\Random_04		8384
+	687893584	Cartoon_03	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\cartoon3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Cartoons\Cartoon_03		595604
+	914519562	Monster_01	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\monster1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monsters\Monster_01		543224
+	936080104	Monster_02	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\monster2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Monsters\Monster_02		905328
+	950366822	Voice_03	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\inst3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Voices\Voice_03		996540
+	1042982428	Random_03	C:\Users\nguye\Documents\Unity\SoundWwise\SoundWwise_WwiseProject\.cache\Mac\SFX\back_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Randoms\Random_03		8384
+
